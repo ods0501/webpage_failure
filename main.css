@@ -1,0 +1,44 @@
+@font-face {
+    font-family: ninja;
+    src: url("font/Ninja Attack.ttf");
+}
+@font-face {
+    font-family: virus;
+    src: url("font/No Virus.ttf");
+}
+@font-face {
+    font-family: sweet;
+    src: url("font/Sweet Talk.otf")
+}
+
+ /* 초기화 서식 */
+*{margin: 0; padding: 0;}
+or,ul {list-style: none;}
+table {border-collapse: collapse;}
+a {text-decoration: none; color: #000;} 
+
+.top_bar{
+    justify-content: center;
+    display: flex;
+}
+.top_bar ul{
+    justify-content: center;
+    display: flex;
+}
+.top_bar li{
+    padding: 30px 60px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -3px black;
+    transition: all 0.2s ease-in-out;
+    margin: 15px 10px;
+    background-color: white;
+    font-family: ninja;
+    font-size: 20px;
+}
+.top_bar img{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}

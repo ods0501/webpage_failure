@@ -1,0 +1,123 @@
+@font-face {
+    font-family: ninja;
+    src: url("font/Ninja Attack.ttf");
+}
+@font-face {
+    font-family: virus;
+    src: url("font/No Virus.ttf");
+}
+@font-face {
+    font-family: sweet;
+    src: url("font/Sweet Talk.otf")
+}
+
+.image_box{
+    justify-content: center;
+    display: flex;
+}
+.first{
+    background-color: crimson;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-image: url(ssg_logo.png);
+    background-repeat: no-repeat;
+    background-size: 90% 60%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.second{
+    background-color: orange;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-image: url(kgc_logo.png);
+    background-repeat: no-repeat;
+    background-size: 90% 60%; 
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.third{
+    background-color: skyblue;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-image: url(dk_logo.png);
+    background-repeat: no-repeat;
+    background-size: 90% 60%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.fourth{
+    background-color: darkslateblue;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-image: url(totten_logo.png);
+    background-repeat: no-repeat;
+    background-size: 80% 60%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+
+.white_box{
+    justify-content: center;
+    display: flex;
+}
+.white{
+    background-color: silver;
+    width: 2000px;
+    height: 200px;
+    text-align: center;
+}
+
+.black_box{
+    justify-content: center;
+    display: flex;
+}
+.black{
+    background-color: black;
+    width: 2000px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+
+/* .content_all{
+
+} */
+.news{
+    background-color: beige;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.information{
+    justify-content: center;
+    display: flex;
+}
+.prev_match{
+    background-color: mediumaquamarine;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.next_match{
+    background-color: lightblue;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.rank{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.etc{
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
